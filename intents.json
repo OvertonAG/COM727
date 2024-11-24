@@ -20,5 +20,12 @@
   {"tag": "default",
     "patterns": [],
     "responses": ["Please ask me anything related to my shop.", "How can I help you in shopping computers?"]}
-  
-]}
+  {"tag": "yes",
+    "patterns": ["yes", "yeah", "yup", "yes bet", "absolutely", "certainly", "sure", "definitely", "of course", "yes indeed", "right", "okay", "i agree", "without a doubt", "aye", "naturally", "without a doubt", "affirmative", "totally", "exactly"]
+    "responses": ["great", "awesome", "perfect", "that's wonderful", "excellent", "fantastic", "glad to hear", "nice", "sweet", "good to hear", "that's amazing", "i'm happy to hear that", "that's good", "i appreciate it", "wonderful", "brilliant", "exactly", "alright", "you bet", "so happy"]
+  {"tag": "no":,
+    "patterns": ["no", " no way", "absolutely not", "definately not", "not at all", "not really", "nope", "never", "i don't think so", "nah", "negative", "i can't", "i'm afraid not", "not posible", " no chance", "not in a million years", "that's a no", "i disagree", "not likely", "i won't"]
+    "responses": ["okay i understand", "no worries", "that's alright", "alright then", "fair enough", "got it", "i see", "thanks for letting me know", "understood", "i respect that", " okay maybe next time", "i appreciate your honesty", "that's fine", "no problem", "alright i'll leave it", "okay i won't push it", "thanks anyway", "i get it", "it's okay i understand", "alright i'll try again later"]
+  {"tag": "mental health depression",
+    "patterns", ["sadness", "hopelessness", "fatigue", "loss of interest", "apathy", "isolation", "worthlessness", "guilt", "lack of motivation", "tears", "negative thinking", "helplessness", "low self esteem", "mood swings", "sleep disturbances", "cognitive distortion", "suicidal thoughts", "crying spells", "withdrawal", "chronic despair"]
+    "responses": ["you are not alone in this", "your feelings are valid", "i'm sorry you are feeling this way", "i'm proud of you for talking about it", "you don't have to go through this by yourself"]]}
