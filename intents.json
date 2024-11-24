@@ -17,7 +17,47 @@
   {"tag": "hours",
     "patterns": ["when you open", "opening hours","what time you close","closing hours", "what are your hours", "when you open", "when you close"],
     "responses": ["We are 24/7.", "We are open 24 hours seven days a week.", "24/7"]},
+
+  {"tag": "new",
+    "patterns": ["just start", "just happen", "start recent", "unusual", "different", "odd feel", "unexpected", "new feel", "start now", "sudden change", "only start", "feel off", "change notice", "first time", "strange feel", "start happen", "feel strange", "notice change", "new experience", "new situation"],
+      "responses": [
+          "It looks like you're experiancing new feelings. The best thing to do with new feelings is contacting your GP for help",
+          "It seems like you're experiencing some unfamiliar emotions. Reaching out to your GP is great for helpping understand these emotions.",
+          "It sounds like you're facing new emotions. Consider calling or meeting with your GP for help."
+      ]
+  },
+  {
+    "tag": "manageable",
+    "patterns": ["not bad", "could be worse", "can handle", "okay", "not great", "not unbearable", "manageable", "have worse", "not terrible", "not worst", "under control", "not overwhelm", "through worse", "still okay", "not fall apart", "mild", "feel stable", "hold up", "fine now"],
+    "responses": [
+        "It looks like you're experiancing feelings that have been bothering you for some time so would be worth contacting your local mental health service for help",
+        "It seems like you're experiencing some feelings that you have experianced before. Contacting a mental health service will help you understand what might trigger these emotions and help you control it.",
+        "It sounds like you have suffered from this level of emotions before. We recommend you to consider calling a mental health service to help understand it better."
+    ]
+},
+{
+  "tag": "imediat_danger",
+  "patterns": ["kill myself", "end my life", "hurt myself", "no reason live", "want die", "cannot go on", "take my life", "suicidal", "die soon", "life not worth", "hopeless", "give up", "cannot live anymore", "end everything", "unbearable pain", "cannot handle anymore", "no point living", "end all"],
+  "responses": [
+      "I'm really sorry you're feeling this way. Please, reach out to 999 or 111 if not life threaterning. You're not alone.",
+      "I'm so sorry to hear you're feeling this way. Please don't hesitate to call 999 for urgent help, or 111 if it is not life-threatening. We are all here for you.",
+      "I'm very sorry to hear how you're feeling. Please reach out to 999 or 111 if it's not an emergency. You're not alone in this."
+  ]
+},
+  {"tag": "mod",
+    "patterns": ["i would like to buy something", "what are your products","what do you sell","product names"],
+    "responses": ["You can buy Laptops, Monitors, PCs from us.", "We sell computers and accessories.", "We are computer sellers."]},
+  {"tag": "verybad",
+    "patterns": ["when you open", "opening hours","what time you close","closing hours", "what are your hours", "when you open", "when you close"],
+    "responses": ["We are 24/7.", "We are open 24 hours seven days a week.", "24/7"]},
+
   {"tag": "default",
+    "patterns": [],
+    "responses": ["Please ask me anything related to my shop.", "How can I help you in shopping computers?"]}
+  
+
+
+  {"tag": "new",
     "patterns": [],
     "responses": ["Please ask me anything related to my shop.", "How can I help you in shopping computers?"]}
 ]}
