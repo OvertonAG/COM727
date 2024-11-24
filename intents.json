@@ -1,5 +1,44 @@
 {"intents": [
   {"tag": "greetings",
+    "patterns": ["hello", "hey","hi","good day","Greetings","what's up","how is it going", "Good morning",
+    "Good afternoon", "Good evening", "What's up", "How are you?", "How's it going?", "How do you do", 
+    "I'm back", "Need help", "Got time?", "need support" ],
+
+    "responses": ["Hello! How can I help you today?", "Hi there. What's on your mind?"]},
+
+  {"tag": "Short-term",
+    "patterns": ["Stress", "overwhelm","Burnout","Nervous","Worry","Unmotivated","Sleepless", "Panic", 
+    "Restless", "Irritable", "Procrastination", "overeat", "binge", "starve", "appetite loss", "Confusion", "fatigue", 
+    "distract", "Headache", "Unease", "Frustration", "Breathlessness", "Forgetful", "withdrawal"],
+    "responses": [
+      "sorry youre feeling this way right now", 
+      "Has something specific happened recently that's made you feel this way", 
+      "It sounds like you've been going through a tough time recently", 
+      "I hear you. Let's try to figure out how to support you",
+      "Do you feel like these feelings came on suddenly or have been building up?", 
+      "It's okay to feel this way. These feelings can pass", 
+      "You're not alone, and it's good that you're reaching out"]},
+
+    {"tag": "greetings",
+      "patterns": ["Diagnosis", "GP visit","Therapy","Medication","CMHT","insomnia","Nurse", "Antidepressant", 
+      "Counselling", "low energy", "trauma", "Relapse", "Chronic fatigue", "Mood swing", "Persistent sadness", 
+      "Self-harm", "history", "Anxiety", "OCD", "PTSD", "Dependence", "Psychiatrist", "Lonely"],
+      "responses": ["Thanks for sharing that with me. I can imagine it hasn't been easy", 
+      "It sounds like you've been dealing with this for a while", 
+      "It's okay to feel this way. You're not alone in this journey", 
+      "I understand you've been through this before. Have you found anything helpful in managing these feelings in the past?",
+      "Let's work together to see what might help you this time"
+      ]},
+
+
+
+
+
+
+
+
+
+  {"tag": "greetings",
     "patterns": ["hello", "hey","hi","good day","Greetings","what's up","how is it going"],
     "responses": ["Hello!", "Hey!", "What can I do for you?"]},
   {"tag": "goodbye",
