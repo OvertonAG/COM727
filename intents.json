@@ -28,6 +28,4 @@
     "responses": ["okay i understand", "no worries", "that's alright", "alright then", "fair enough", "got it", "i see", "thanks for letting me know", "understood", "i respect that", " okay maybe next time", "i appreciate your honesty", "that's fine", "no problem", "alright i'll leave it", "okay i won't push it", "thanks anyway", "i get it", "it's okay i understand", "alright i'll try again later"]
   {"tag": "mental health depression",
     "patterns", ["sadness", "hopelessness", "fatigue", "loss of interest", "apathy", "isolation", "worthlessness", "guilt", "lack of motivation", "tears", "negative thinking", "helplessness", "low self esteem", "mood swings", "sleep disturbances", "cognitive distortion", "suicidal thoughts", "crying spells", "withdrawal", "chronic despair"]
-    "responses": ["you are not alone in this", "your feelings are valid", "i'm sorry you are feeling this way", "i'm proud of you for talking about it", "you don't have to go through this by yourself"]
-    
-]}
+    "responses": ["you are not alone in this", "your feelings are valid", "i'm sorry you are feeling this way", "i'm proud of you for talking about it", "you don't have to go through this by yourself"]]}
