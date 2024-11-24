@@ -43,21 +43,6 @@
       "I'm so sorry to hear you're feeling this way. Please don't hesitate to call 999 for urgent help, or 111 if it is not life-threatening. We are all here for you.",
       "I'm very sorry to hear how you're feeling. Please reach out to 999 or 111 if it's not an emergency. You're not alone in this."
   ]
-},
-  {"tag": "mod",
-    "patterns": ["i would like to buy something", "what are your products","what do you sell","product names"],
-    "responses": ["You can buy Laptops, Monitors, PCs from us.", "We sell computers and accessories.", "We are computer sellers."]},
-  {"tag": "verybad",
-    "patterns": ["when you open", "opening hours","what time you close","closing hours", "what are your hours", "when you open", "when you close"],
-    "responses": ["We are 24/7.", "We are open 24 hours seven days a week.", "24/7"]},
+}
 
-  {"tag": "default",
-    "patterns": [],
-    "responses": ["Please ask me anything related to my shop.", "How can I help you in shopping computers?"]}
-  
-
-
-  {"tag": "new",
-    "patterns": [],
-    "responses": ["Please ask me anything related to my shop.", "How can I help you in shopping computers?"]}
 ]}
