@@ -1,0 +1,10 @@
+'pattern'[
+'terrible', 'worse', 'mess', 'worthless', 'disappointment', 'hopeless', 'failure', 'scared', 'helpless', 'fear', 'lonliness', 'isolation',
+'weak', 'useless', 'miserable', 'ruined', 'mistake', 'falling apart', 'blame', 'wrong', 'alone'
+]
+'response'[
+    'do you want to talk more about it', 'I'm really sorry you feel that way. Can you tell me more about what happened? I would love to help make it better.',
+    'That doesn't sound great! Let me know how I can assist or if you'd like to talk about it', 'It sounds like things have taken a turn for the worse. If there's anything I can do to help',
+    'That doesn’t sound ideal. If you'd like, I can offer some solutions or simply listen.', 'it might seem like things are not working out, but I’m here to help. How can we move forward from here',
+    'sorry to hear you're feeling disappointedthis way. Let try to figure out what went wrong and see if we can improve it'
+]
