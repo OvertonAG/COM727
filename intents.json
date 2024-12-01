@@ -22,7 +22,7 @@
     "responses": ["Please ask me anything related to my shop.", "How can I help you in shopping computers?"]},
   {"tag": "yes",
     "patterns": ["yes", "yeah", "yup", "yes bet", "absolutely", "certainly", "sure", "definitely", "of course", "yes indeed", "right", "okay", "i agree", "without a doubt", "aye", "naturally", "without a doubt", "affirmative", "totally", "exactly"]
-    "responses": ["great", "awesome", "perfect", "that's wonderful", "excellent", "fantastic", "glad to hear", "nice", "sweet", "good to hear", "that's amazing", "i'm happy to hear that", "that's good", "i appreciate it", "wonderful", "brilliant", "exactly", "alright", "you bet", "so happy"]},
+    "responses": ["great! Let’s work on this together. can you tell me more about how you're feeling right now", "okay! Would you like to try a breathing exercise or hear some tips for managing stress?", "thank you for opening up. it is a brave step to seek help.", "that's wonderful", "excellent", "fantastic", "glad to hear", "nice", "sweet", "good to hear", "that's amazing", "i'm happy to hear that", "that's good", "i appreciate it", "wonderful", "brilliant", "exactly", "alright", "you bet", "so happy"]},
   {"tag": "no",
     "patterns": ["no", " no way", "absolutely not", "definately not", "not at all", "not really", "nope", "never", "i don't think so", "nah", "negative", "i can't", "i'm afraid not", "not posible", " no chance", "not in a million years", "that's a no", "i disagree", "not likely", "i won't"]
     "responses": ["contact your local crisis team at antelope house", "contact community mental health team at cannon house", "online support available with any mind matter", "solent mind, provides services including peer support groups and telephone support lines"]},
