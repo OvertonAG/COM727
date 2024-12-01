@@ -43,10 +43,10 @@
       "what’s the process for mental health treatment?",
       "can you recommend a therapist near me", "how do i contact a mental health professional?", 
       "how do I get mental health treatment?", "where can i find support for anxiety?", "i need help with my mental health", 
-      "are there any psychologists available online?", "what’s the number for a mental health hotline?"]
+      "are there any psychologists available online?", "what’s the number for a mental health hotline?"],
     "responses": ["you are not alone in this", "your feelings are valid", "i'm sorry you are feeling this way", 
-      "i'm proud of you for talking about it", "you don't have to go through this by yourself"
-      "i understand. Let me share some options for support, like speaking to a professional or exploring coping strategies. What feels right for you?"
-      "it’s important to take care of your mental health. i can help you find a counselor or therapist. would that work for you?"
+      "i'm proud of you for talking about it", "you don't have to go through this by yourself",
+      "i understand. Let me share some options for support, like speaking to a professional or exploring coping strategies. What feels right for you?",
+      "it’s important to take care of your mental health. i can help you find a counselor or therapist. would that work for you?",
     "if you feel like you're in a crisis, please don’t hesitate to call a helpline. i can help you find one in your area. would you like me to do that?"]},
 ]
