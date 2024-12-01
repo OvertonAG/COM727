@@ -35,16 +35,18 @@
     ],
     "responses": ["contact your local crisis team at antelope house", "contact community mental health team at cannon house", 
       "online support available with any mind matter", "solent mind, provides services including peer support groups and telephone support lines"]},
-  {"tag": "mental health ",
-    "patterns", [
+  {"tag": "mental health",
+    "patterns": [
+      "do you have resources for dealing with depression or anxiety?",
       "where is my nearest social services", "where can I find mental health support?",
-      "what mental health services are available?", "I need help with anxiety or depression", 
-      "can you recommend a therapist near me", "How do I contact a mental health professional?", 
-      "how do I get mental health treatment?", "Where can I find support for anxiety?", "1 need help with my mental health", 
+      "what mental health services are available?", "i need help with anxiety or depression",
+      "what’s the process for mental health treatment?",
+      "can you recommend a therapist near me", "how do i contact a mental health professional?", 
+      "how do I get mental health treatment?", "where can i find support for anxiety?", "i need help with my mental health", 
       "are there any psychologists available online?", "what’s the number for a mental health hotline?"]
     "responses": ["you are not alone in this", "your feelings are valid", "i'm sorry you are feeling this way", 
       "i'm proud of you for talking about it", "you don't have to go through this by yourself"
       "i understand. Let me share some options for support, like speaking to a professional or exploring coping strategies. What feels right for you?"
       "it’s important to take care of your mental health. i can help you find a counselor or therapist. would that work for you?"
-]},
+    "if you feel like you're in a crisis, please don’t hesitate to call a helpline. i can help you find one in your area. would you like me to do that?"]},
 ]
