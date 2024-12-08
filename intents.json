@@ -1,49 +1,162 @@
 {"intents": [
   {"tag": "anxiety",
-  "patterns":[ 'difficulty relaxing', 'restlessness', 'tension','sleep difficulty', 'difficulty concentrating' 'Racing thought',   'Rapid heartbeat (palpitations)','Irritability', 'Sweating', 'Overthinking', 'nausea', 'diarrhoea','Trembling', 'shaking','Excessive worry', 'Excessive fear','Muscle tension','Hypervigilance','Feeling trapped',
-'panic attacks', 'feeling overwhelmed']
-"responses":['Relaxation can be tough when anxiety takes over. Take a few moments to focus on relaxing your body',
-'It common to feel restless when you are anxious. use grounding yourself, short mindfulness exercise to calm your body, mind',
-'I know that feeling tense can make anxiety feel even worse. How about we try a simple body scan to release that tension',
-'If you having trouble sleeping because of worry, it might help to do a relaxation exercise right before bed',
-'When your mind is scattered, it hard to concentrate, See if you can bring you back to the present moment and focus on just one thing at a time',
-'Racing thoughts are really common with anxiety. try to focus on one thing at a time and give your mind a moment to rest',
-'racing heartbeat can be really unsettling. take a few deep breaths together to help slow your heart rate. Inhale for four seconds, hold for four, and exhale slowly',
-'Irritability can often be a sign of stress or anxiety. It might help to pause and take a moment for yourself. How are you feeling emotionally right now',
-'Sweating is a common physical response to anxiety.try focusing on relaxing your body, which can help calm those physical sensations',
-'Overthinking often happens when anxiety takes control. calm your mind and focus on the present.'
-'Shaking can happen when anxiety takes over, but it will pass. Try focusing on your breath—slowly inhale, hold for a few seconds, and then exhale to help relax your body',
-'Excessive worry often happens when anxiety is high. what is the main worry you are facing, and can we explore ways to address it step by step',
-'It completely understandable to feel fearful during moments of anxiety. focus on what on your control right now, starting with a deep breath to help calm your mind and body',
-] },
-  {"tag": "bad",
+    "patterns":[ 'difficulty relaxing', 'restlessness', 'tension','sleep difficulty', 'difficulty concentrating' 'Racing thought',   'Rapid heartbeat (palpitations)','Irritability', 'Sweating', 'Overthinking', 'nausea', 'diarrhoea','Trembling', 'shaking','Excessive worry', 'Excessive fear','Muscle tension','Hypervigilance','Feeling trapped',
+      'panic attacks', 'feeling overwhelmed']
+    "responses":['Relaxation can be tough when anxiety takes over. Take a few moments to focus on relaxing your body',
+      'It common to feel restless when you are anxious. use grounding yourself, short mindfulness exercise to calm your body, mind',
+      'I know that feeling tense can make anxiety feel even worse. How about we try a simple body scan to release that tension',
+      'If you having trouble sleeping because of worry, it might help to do a relaxation exercise right before bed',
+      'When your mind is scattered, it hard to concentrate, See if you can bring you back to the present moment and focus on just one thing at a time',
+      'Racing thoughts are really common with anxiety. try to focus on one thing at a time and give your mind a moment to rest',
+      'racing heartbeat can be really unsettling. take a few deep breaths together to help slow your heart rate. Inhale for four seconds, hold for four, and exhale slowly',
+      'Irritability can often be a sign of stress or anxiety. It might help to pause and take a moment for yourself. How are you feeling emotionally right now',
+      'Sweating is a common physical response to anxiety.try focusing on relaxing your body, which can help calm those physical sensations',
+      'Overthinking often happens when anxiety takes control. calm your mind and focus on the present.'
+      'Shaking can happen when anxiety takes over, but it will pass. Try focusing on your breath—slowly inhale, hold for a few seconds, and then exhale to help relax your body',
+      'Excessive worry often happens when anxiety is high. what is the main worry you are facing, and can we explore ways to address it step by step',
+      'It completely understandable to feel fearful during moments of anxiety. focus on what on your control right now, starting with a deep breath to help calm your mind and body']},
+
+ {"tag": "bad",
     "patterns": ['terrible', 'worse', 'mess', 'worthless', 'disappointment', 'hopeless', 'failure', 'scared', 'helpless', 'fear', 'lonliness', 'isolation',
-    'weak', 'useless', 'miserable', 'ruined', 'mistake', 'falling apart', 'blame', 'wrong', 'alone'
-    ],
+      'weak', 'useless', 'miserable', 'ruined', 'mistake', 'falling apart', 'blame', 'wrong', 'alone'],
     "responses": ['Do you want to talk more about it', 'I'm really sorry you feel that way. Can you tell me more about what happened? I would love to help make it better.',
-    'That doesn't sound great! Let me know how I can assist or if you'd like to talk about it', 'It sounds like things have taken a turn for the worse. If there's anything I can do to help',
-    'That does not sound ideal. If you'd like, I can offer some solutions or simply listen.', 'it might seem like things are not working out, but I am here to help. How can we move forward from here',
-    'sorry to hear you're feeling disappointedthis way. Let try to figure out what went wrong and see if we can improve it']},
+      'That doesn't sound great! Let me know how I can assist or if you'd like to talk about it', 'It sounds like things have taken a turn for the worse. If there's anything I can do to help',
+      'That does not sound ideal. If you'd like, I can offer some solutions or simply listen.', 'it might seem like things are not working out, but I am here to help. How can we move forward from here',
+      'sorry to hear you're feeling disappointedthis way. Let try to figure out what went wrong and see if we can improve it']},
   {"tag": "Depression",
     "patterns": [Persistent sadness", "low mood", "loss of interest", "fatigue","low energy","Feeling worthless",
-    "Feeling guilt","Tearfulness", "frequent crying","concentration difficulty","difficulty making decisions",
-    "appetite change (weight gain, weight loss)","sleep disturbances (insomnia, oversleeping)","psychomotor agitation", 
-    "self-harm thought","hopeless","recurrent thought of death", "suicide", "physical pain without clear cause", 
-    "social withdrawal", "low self-esteem","poor personal hygiene","self harm"],
+      "Feeling guilt","Tearfulness", "frequent crying","concentration difficulty","difficulty making decisions",
+      "appetite change (weight gain, weight loss)","sleep disturbances (insomnia, oversleeping)","psychomotor agitation", 
+      "self-harm thought","hopeless","recurrent thought of death", "suicide", "physical pain without clear cause", 
+      "social withdrawal", "low self-esteem","poor personal hygiene","self harm"],
     "responses": ["I'm really sorry you're feeling this way. Persistent sadness can be really hard to cope with. It's important to know that you're not alone, and talking about it can sometimes help. Would you like to share more about what's been on your mind?",
-    "It sounds like you're having a tough time with your mood right now. Feeling low can be really draining. If you’d like, I can suggest a few ways to help lift your spirits, or we can talk more about what's causing you to feel this way.",
-    "It must be frustrating to lose interest in things that once brought you joy. When that happens, it's easy to feel disconnected. Do you want to talk about the things that used to excite you, or would you like some suggestions for small activities to ease back into?",
-    "It sounds like you're feeling really tired, physically or emotionally. Fatigue can often come with stress or emotional strain. Sometimes it helps to take small breaks or practice some relaxation techniques. Would you like to try a quick relaxation exercise?",
-    "Low energy can make everything feel much harder. Have you been able to get enough rest lately? Sometimes small changes in routine or incorporating a little physical activity can help recharge your energy levels. Would you like some tips?",
-    "I'm sorry.",
-    "Feeling guilty can weigh heavily on your heart. Sometimes, it helps to ask ourselves if we have been too harsh on ourselves. Would you like to talk more about the specific situation you're feeling guilty about?",
-    "It seems like you're going through a lot of emotional pain right now, and crying can be a natural release. It's okay to feel like this. Sometimes, crying helps to process those overwhelming emotions. Would you like to share more about what's making you feel this way?",
-    "It seems like you're feeling overwhelmed right now, and frequent crying can be a way your body expresses that. It's okay to let it out, but if you'd like, we can explore ways to manage your emotions. Would that be helpful?",
-    "Struggling to concentrate can make everything feel even harder. Sometimes stress or overwhelming emotions can cloud our focus. Have you been able to take breaks or get some fresh air? Maybe we can try some focus exercises together.",
-    "It sounds like making decisions is tough right now. When anxiety or stress builds up, it can be hard to know what's the best choice. Would you like to talk through the options together, or maybe take a step back and think about what's most important to you?",
-    "It sounds like your appetite has been changing, which can be a sign of stress or emotional strain. Changes in eating habits often happen when we're feeling down. Would you like to talk about how your appetite has been changing, or how you've been feeling about food recently?",
-    "I hear you're having trouble with sleep, whether it's falling asleep or sleeping too much. Sleep problems are common when we're stressed or feeling down. Maybe we can discuss some techniques to help you relax before bed. Would you like to try something together?",
-    "I understand you're feeling restless or like you can't stay still. This can be really frustrating. Sometimes, physical activity like a walk or deep breathing exercises can help release that excess energy. Want to try something like that?",
-    "I'm really sorry you're feeling this way, and I am glad you reached out. It's really important to talk to someone you trust, whether it's a friend, family member, or a professional. If you're feeling like you're in immediate danger, please reach out to a helpline or a mental health professional",
-    "Hopelessness can feel so overwhelming, like there's no way out. I want you to know that even in tough times, there are people who care about you and want to help. Do you want to talk about what's making you feel this way? Together, we can explore ways to find some hope again"]}
-  
+      "It sounds like you're having a tough time with your mood right now. Feeling low can be really draining. If you’d like, I can suggest a few ways to help lift your spirits, or we can talk more about what's causing you to feel this way.",
+      "It must be frustrating to lose interest in things that once brought you joy. When that happens, it's easy to feel disconnected. Do you want to talk about the things that used to excite you, or would you like some suggestions for small activities to ease back into?",
+      "It sounds like you're feeling really tired, physically or emotionally. Fatigue can often come with stress or emotional strain. Sometimes it helps to take small breaks or practice some relaxation techniques. Would you like to try a quick relaxation exercise?",
+      "Low energy can make everything feel much harder. Have you been able to get enough rest lately? Sometimes small changes in routine or incorporating a little physical activity can help recharge your energy levels. Would you like some tips?",
+      "I'm sorry.",
+      "Feeling guilty can weigh heavily on your heart. Sometimes, it helps to ask ourselves if we have been too harsh on ourselves. Would you like to talk more about the specific situation you're feeling guilty about?",
+      "It seems like you're going through a lot of emotional pain right now, and crying can be a natural release. It's okay to feel like this. Sometimes, crying helps to process those overwhelming emotions. Would you like to share more about what's making you feel this way?",
+      "It seems like you're feeling overwhelmed right now, and frequent crying can be a way your body expresses that. It's okay to let it out, but if you'd like, we can explore ways to manage your emotions. Would that be helpful?",
+      "Struggling to concentrate can make everything feel even harder. Sometimes stress or overwhelming emotions can cloud our focus. Have you been able to take breaks or get some fresh air? Maybe we can try some focus exercises together.",
+      "It sounds like making decisions is tough right now. When anxiety or stress builds up, it can be hard to know what's the best choice. Would you like to talk through the options together, or maybe take a step back and think about what's most important to you?",
+      "It sounds like your appetite has been changing, which can be a sign of stress or emotional strain. Changes in eating habits often happen when we're feeling down. Would you like to talk about how your appetite has been changing, or how you've been feeling about food recently?",
+      "I hear you're having trouble with sleep, whether it's falling asleep or sleeping too much. Sleep problems are common when we're stressed or feeling down. Maybe we can discuss some techniques to help you relax before bed. Would you like to try something together?",
+      "I understand you're feeling restless or like you can't stay still. This can be really frustrating. Sometimes, physical activity like a walk or deep breathing exercises can help release that excess energy. Want to try something like that?",
+      "I'm really sorry you're feeling this way, and I am glad you reached out. It's really important to talk to someone you trust, whether it's a friend, family member, or a professional. If you're feeling like you're in immediate danger, please reach out to a helpline or a mental health professional",
+      "Hopelessness can feel so overwhelming, like there's no way out. I want you to know that even in tough times, there are people who care about you and want to help. Do you want to talk about what's making you feel this way? Together, we can explore ways to find some hope again"]},
+
+  {"tag": "greetings",
+    "patterns": ["hello", "hey","hi","good day","Greetings","what's up","how is it going", "Good morning",
+    "Good afternoon", "Good evening", "What's up", "How are you?", "How's it going?", "How do you do", 
+    "I'm back", "Need help", "Got time?", "need support" ],
+
+    "responses": ["Hello! How can I help you today?", "Hi there. What's on your mind?"]},
+
+  {"tag": "Short-term",
+    "patterns": ["Stress", "overwhelm","Burnout","Nervous","Worry","Unmotivated","Sleepless", "Panic", 
+    "Restless", "Irritable", "Procrastination", "overeat", "binge", "starve", "appetite loss", "Confusion", "fatigue", 
+    "distract", "Headache", "Unease", "Frustration", "Breathlessness", "Forgetful", "withdrawal"],
+    "responses": [
+      "sorry youre feeling this way right now", 
+      "Has something specific happened recently that's made you feel this way", 
+      "It sounds like you've been going through a tough time recently", 
+      "I hear you. Let's try to figure out how to support you",
+      "Do you feel like these feelings came on suddenly or have been building up?", 
+      "It's okay to feel this way. These feelings can pass", 
+      "You're not alone, and it's good that you're reaching out"]},
+
+    {"tag": "greetings",
+      "patterns": ["Diagnosis", "GP visit","Therapy","Medication","CMHT","insomnia","Nurse", "Antidepressant", 
+      "Counselling", "low energy", "trauma", "Relapse", "Chronic fatigue", "Mood swing", "Persistent sadness", 
+      "Self-harm", "history", "Anxiety", "OCD", "PTSD", "Dependence", "Psychiatrist", "Lonely"],
+      "responses": ["Thanks for sharing that with me. I can imagine it hasn't been easy", 
+      "It sounds like you've been dealing with this for a while", 
+      "It's okay to feel this way. You're not alone in this journey", 
+      "I understand you've been through this before. Have you found anything helpful in managing these feelings in the past?",
+      "Let's work together to see what might help you this time"
+      ]},
+
+
+
+
+
+
+
+
+
+  {"tag": "greetings",
+    "patterns": ["hello", "hey","hi","good day","Greetings","what's up","how is it going"],
+    "responses": ["Hello!", "Hey!", "What can I do for you?"]},
+  {"tag": "goodbye",
+    "patterns": ["See ya", "see you later","bye","goodbye","have a nice day","bye bye"],
+    "responses": ["Goodbye!", "See you later.", "Please come back soon."]},
+  {"tag": "age",
+    "patterns": ["how old", "how old are you","what is your age","how old are you","age?"],
+    "responses": ["My owner is Kashif and he is very old", "Don't know", "My owner is ancient"]},
+  {"tag": "name",
+    "patterns": ["name", "your name","what should I call you","who are you"],
+    "responses": ["I'm a Chatbot.", "My name is AI Chatbot.", "I am your Chatbot."]},
+  {"tag": "shop",
+    "patterns": ["i would like to buy something", "what are your products","what do you sell","product names"],
+    "responses": ["You can buy Laptops, Monitors, PCs from us.", "We sell computers and accessories.", "We are computer sellers."]},
+  {"tag": "hours",
+    "patterns": ["when you open", "opening hours","what time you close","closing hours", "what are your hours", "when you open", "when you close"],
+    "responses": ["We are 24/7.", "We are open 24 hours seven days a week.", "24/7"]},
+
+  {"tag": "new",
+    "patterns": ["just start", "just happen", "start recent", "unusual", "different", "odd feel", "unexpected", "new feel", "start now", "sudden change", "only start", "feel off", "change notice", "first time", "strange feel", "start happen", "feel strange", "notice change", "new experience", "new situation"],
+      "responses": [
+          "It looks like you're experiancing new feelings. The best thing to do with new feelings is contacting your GP for help",
+          "It seems like you're experiencing some unfamiliar emotions. Reaching out to your GP is great for helpping understand these emotions.",
+          "It sounds like you're facing new emotions. Consider calling or meeting with your GP for help."
+      ]
+  },
+  {
+    "tag": "manageable",
+    "patterns": ["not bad", "could be worse", "can handle", "okay", "not great", "not unbearable", "manageable", "have worse", "not terrible", "not worst", "under control", "not overwhelm", "through worse", "still okay", "not fall apart", "mild", "feel stable", "hold up", "fine now"],
+    "responses": [
+        "It looks like you're experiancing feelings that have been bothering you for some time so would be worth contacting your local mental health service for help",
+        "It seems like you're experiencing some feelings that you have experianced before. Contacting a mental health service will help you understand what might trigger these emotions and help you control it.",
+        "It sounds like you have suffered from this level of emotions before. We recommend you to consider calling a mental health service to help understand it better."
+    ]
+  },
+  {
+    "tag": "imediat_danger",
+    "patterns": ["kill myself", "end my life", "hurt myself", "no reason live", "want die", "cannot go on", "take my life", "suicidal", "die soon", "life not worth", "hopeless", "give up", "cannot live anymore", "end everything", "unbearable pain", "cannot handle anymore", "no point living", "end all"],
+    "responses": [
+        "I'm really sorry you're feeling this way. Please, reach out to 999 or 111 if not life threaterning. You're not alone.",
+        "I'm so sorry to hear you're feeling this way. Please don't hesitate to call 999 for urgent help, or 111 if it is not life-threatening. We are all here for you.",
+        "I'm very sorry to hear how you're feeling. Please reach out to 999 or 111 if it's not an emergency. You're not alone in this."
+    ]
+  },
+  {"tag": "yes",
+    "patterns": [
+      "yes", "yeah", "yup", "yes bet", "absolutely", "certainly", "sure", 
+      "definitely", "of course", "yes indeed", "right", "okay", "i agree", "without a doubt", "aye", "naturally", "affirmative", "totally", "exactly"],
+    "responses": ["great! let’s work on this together. can you tell me more about how you're feeling right now", 
+      "okay! would you like to try a breathing exercise or hear some tips for managing stress?", 
+      "thank you for opening up. it is a brave step to seek help."]},
+  {"tag": "no",
+    "patterns": [
+      "no", " no way", "absolutely not", "definately not", "not at all", "not really", "nope", "never", 
+      "i don't think so", "nah", "negative", "i can't", "i'm afraid not", "not posible", " no chance", "not in a million years", 
+      "that's a no", "i disagree", "not likely", "i won't"
+    ],
+    "responses": ["contact your local crisis team at antelope house", "contact community mental health team at cannon house", 
+      "online support available with any mind matter", "solent mind, provides services including peer support groups and telephone support lines"]},
+  {"tag": "mental health",
+    "patterns": [
+      "do you have resources for dealing with depression or anxiety?",
+      "where is my nearest social services", "where can I find mental health support?",
+      "what mental health services are available?", "i need help with anxiety or depression",
+      "what’s the process for mental health treatment?",
+      "can you recommend a therapist near me", "how do i contact a mental health professional?", 
+      "how do I get mental health treatment?", "where can i find support for anxiety?", "i need help with my mental health", 
+      "are there any psychologists available online?", "what’s the number for a mental health hotline?"],
+    "responses": ["you are not alone in this", "your feelings are valid", "i'm sorry you are feeling this way", 
+      "i'm proud of you for talking about it", "you don't have to go through this by yourself",
+      "i understand. Let me share some options for support, like speaking to a professional or exploring coping strategies. What feels right for you?",
+      "it’s important to take care of your mental health. i can help you find a counselor or therapist. would that work for you?",
+    "if you feel like you're in a crisis, please don’t hesitate to call a helpline. i can help you find one in your area. would you like me to do that?"]}
+]}
