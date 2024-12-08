@@ -1,5 +1,44 @@
 {"intents": [
   {"tag": "greetings",
+    "patterns": ["hello", "hey","hi","good day","Greetings","what's up","how is it going", "Good morning",
+    "Good afternoon", "Good evening", "What's up", "How are you?", "How's it going?", "How do you do", 
+    "I'm back", "Need help", "Got time?", "need support" ],
+
+    "responses": ["Hello! How can I help you today?", "Hi there. What's on your mind?"]},
+
+  {"tag": "Short-term",
+    "patterns": ["Stress", "overwhelm","Burnout","Nervous","Worry","Unmotivated","Sleepless", "Panic", 
+    "Restless", "Irritable", "Procrastination", "overeat", "binge", "starve", "appetite loss", "Confusion", "fatigue", 
+    "distract", "Headache", "Unease", "Frustration", "Breathlessness", "Forgetful", "withdrawal"],
+    "responses": [
+      "sorry youre feeling this way right now", 
+      "Has something specific happened recently that's made you feel this way", 
+      "It sounds like you've been going through a tough time recently", 
+      "I hear you. Let's try to figure out how to support you",
+      "Do you feel like these feelings came on suddenly or have been building up?", 
+      "It's okay to feel this way. These feelings can pass", 
+      "You're not alone, and it's good that you're reaching out"]},
+
+    {"tag": "greetings",
+      "patterns": ["Diagnosis", "GP visit","Therapy","Medication","CMHT","insomnia","Nurse", "Antidepressant", 
+      "Counselling", "low energy", "trauma", "Relapse", "Chronic fatigue", "Mood swing", "Persistent sadness", 
+      "Self-harm", "history", "Anxiety", "OCD", "PTSD", "Dependence", "Psychiatrist", "Lonely"],
+      "responses": ["Thanks for sharing that with me. I can imagine it hasn't been easy", 
+      "It sounds like you've been dealing with this for a while", 
+      "It's okay to feel this way. You're not alone in this journey", 
+      "I understand you've been through this before. Have you found anything helpful in managing these feelings in the past?",
+      "Let's work together to see what might help you this time"
+      ]},
+
+
+
+
+
+
+
+
+
+  {"tag": "greetings",
     "patterns": ["hello", "hey","hi","good day","Greetings","what's up","how is it going"],
     "responses": ["Hello!", "Hey!", "What can I do for you?"]},
   {"tag": "goodbye",
@@ -17,9 +56,33 @@
   {"tag": "hours",
     "patterns": ["when you open", "opening hours","what time you close","closing hours", "what are your hours", "when you open", "when you close"],
     "responses": ["We are 24/7.", "We are open 24 hours seven days a week.", "24/7"]},
-  {"tag": "default",
-    "patterns": [],
-    "responses": ["Please ask me anything related to my shop.", "How can I help you in shopping computers?"]},
+
+  {"tag": "new",
+    "patterns": ["just start", "just happen", "start recent", "unusual", "different", "odd feel", "unexpected", "new feel", "start now", "sudden change", "only start", "feel off", "change notice", "first time", "strange feel", "start happen", "feel strange", "notice change", "new experience", "new situation"],
+      "responses": [
+          "It looks like you're experiancing new feelings. The best thing to do with new feelings is contacting your GP for help",
+          "It seems like you're experiencing some unfamiliar emotions. Reaching out to your GP is great for helpping understand these emotions.",
+          "It sounds like you're facing new emotions. Consider calling or meeting with your GP for help."
+      ]
+  },
+  {
+    "tag": "manageable",
+    "patterns": ["not bad", "could be worse", "can handle", "okay", "not great", "not unbearable", "manageable", "have worse", "not terrible", "not worst", "under control", "not overwhelm", "through worse", "still okay", "not fall apart", "mild", "feel stable", "hold up", "fine now"],
+    "responses": [
+        "It looks like you're experiancing feelings that have been bothering you for some time so would be worth contacting your local mental health service for help",
+        "It seems like you're experiencing some feelings that you have experianced before. Contacting a mental health service will help you understand what might trigger these emotions and help you control it.",
+        "It sounds like you have suffered from this level of emotions before. We recommend you to consider calling a mental health service to help understand it better."
+    ]
+  },
+  {
+    "tag": "imediat_danger",
+    "patterns": ["kill myself", "end my life", "hurt myself", "no reason live", "want die", "cannot go on", "take my life", "suicidal", "die soon", "life not worth", "hopeless", "give up", "cannot live anymore", "end everything", "unbearable pain", "cannot handle anymore", "no point living", "end all"],
+    "responses": [
+        "I'm really sorry you're feeling this way. Please, reach out to 999 or 111 if not life threaterning. You're not alone.",
+        "I'm so sorry to hear you're feeling this way. Please don't hesitate to call 999 for urgent help, or 111 if it is not life-threatening. We are all here for you.",
+        "I'm very sorry to hear how you're feeling. Please reach out to 999 or 111 if it's not an emergency. You're not alone in this."
+    ]
+  },
   {"tag": "yes",
     "patterns": [
       "yes", "yeah", "yup", "yes bet", "absolutely", "certainly", "sure", 
@@ -48,5 +111,5 @@
       "i'm proud of you for talking about it", "you don't have to go through this by yourself",
       "i understand. Let me share some options for support, like speaking to a professional or exploring coping strategies. What feels right for you?",
       "it’s important to take care of your mental health. i can help you find a counselor or therapist. would that work for you?",
-    "if you feel like you're in a crisis, please don’t hesitate to call a helpline. i can help you find one in your area. would you like me to do that?"]},
-]
+    "if you feel like you're in a crisis, please don’t hesitate to call a helpline. i can help you find one in your area. would you like me to do that?"]}
+]}
