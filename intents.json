@@ -83,7 +83,33 @@
         "I'm very sorry to hear how you're feeling. Please reach out to 999 or 111 if it's not an emergency. You're not alone in this."
     ]
   },
-  {"tag": "default",
-    "patterns": [],
-    "responses": ["Please ask me anything related to my shop.", "How can I help you in shopping computers?"]}
+  {"tag": "yes",
+    "patterns": [
+      "yes", "yeah", "yup", "yes bet", "absolutely", "certainly", "sure", 
+      "definitely", "of course", "yes indeed", "right", "okay", "i agree", "without a doubt", "aye", "naturally", "affirmative", "totally", "exactly"],
+    "responses": ["great! let’s work on this together. can you tell me more about how you're feeling right now", 
+      "okay! would you like to try a breathing exercise or hear some tips for managing stress?", 
+      "thank you for opening up. it is a brave step to seek help."]},
+  {"tag": "no",
+    "patterns": [
+      "no", " no way", "absolutely not", "definately not", "not at all", "not really", "nope", "never", 
+      "i don't think so", "nah", "negative", "i can't", "i'm afraid not", "not posible", " no chance", "not in a million years", 
+      "that's a no", "i disagree", "not likely", "i won't"
+    ],
+    "responses": ["contact your local crisis team at antelope house", "contact community mental health team at cannon house", 
+      "online support available with any mind matter", "solent mind, provides services including peer support groups and telephone support lines"]},
+  {"tag": "mental health",
+    "patterns": [
+      "do you have resources for dealing with depression or anxiety?",
+      "where is my nearest social services", "where can I find mental health support?",
+      "what mental health services are available?", "i need help with anxiety or depression",
+      "what’s the process for mental health treatment?",
+      "can you recommend a therapist near me", "how do i contact a mental health professional?", 
+      "how do I get mental health treatment?", "where can i find support for anxiety?", "i need help with my mental health", 
+      "are there any psychologists available online?", "what’s the number for a mental health hotline?"],
+    "responses": ["you are not alone in this", "your feelings are valid", "i'm sorry you are feeling this way", 
+      "i'm proud of you for talking about it", "you don't have to go through this by yourself",
+      "i understand. Let me share some options for support, like speaking to a professional or exploring coping strategies. What feels right for you?",
+      "it’s important to take care of your mental health. i can help you find a counselor or therapist. would that work for you?",
+    "if you feel like you're in a crisis, please don’t hesitate to call a helpline. i can help you find one in your area. would you like me to do that?"]}
 ]}
