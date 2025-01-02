@@ -2,23 +2,23 @@
   {
     "tag": "anxiety",
     "patterns": [ 
-      "difficulty relax", "restlessness", "tension","sleep difficulty", "difficulty concentrate", "race think",   "Rapid heartbeat", "palpitations", "irritability", "sweat", "overthinking", "nausea", "diarrhoea","tremble", "shake","excessive worry", "excessive fear","muscle tension","hypervigilance","feel trap",
-      "panic attack", "feel overwhelm"
+      "difficulty relax", "restlessness", "restless", "tension","sleep difficulty", "difficulty concentrate", "race think",   "Rapid heartbeat", "palpitations", "irritability", "sweat", "overthinking", "nausea", "diarrhoea","tremble", "shake","excessive worry", "excessive fear","muscle tension","hypervigilance","feel trap",
+      "panic attack", "feel overwhelm", "anxiety"
     ],
     "responses": [
       "Relaxation can be tough when anxiety takes over. Take a few moments to focus on relaxing your body",
-      "It common to feel restless when you are anxious. use grounding yourself, short mindfulness exercise to calm your body, mind",
+      "It common to feel restless when you are anxious. Use grounding yourself, short mindfulness exercise to calm your body, mind",
       "I know that feeling tense can make anxiety feel even worse. How about we try a simple body scan to release that tension",
       "If you having trouble sleeping because of worry, it might help to do a relaxation exercise right before bed",
       "When your mind is scattered, it hard to concentrate, See if you can bring you back to the present moment and focus on just one thing at a time",
-      "Racing thoughts are really common with anxiety. try to focus on one thing at a time and give your mind a moment to rest",
-      "racing heartbeat can be really unsettling. take a few deep breaths together to help slow your heart rate. Inhale for four seconds, hold for four, and exhale slowly",
+      "Racing thoughts are really common with anxiety. Try to focus on one thing at a time and give your mind a moment to rest",
+      "Racing heartbeat can be really unsettling. Take a few deep breaths together to help slow your heart rate. Inhale for four seconds, hold for four, and exhale slowly",
       "Irritability can often be a sign of stress or anxiety. It might help to pause and take a moment for yourself. How are you feeling emotionally right now",
-      "Sweating is a common physical response to anxiety.try focusing on relaxing your body, which can help calm those physical sensations",
-      "Overthinking often happens when anxiety takes control. calm your mind and focus on the present.",
+      "Sweating is a common physical response to anxiety.Try focusing on relaxing your body, which can help calm those physical sensations",
+      "Overthinking often happens when anxiety takes control. Calm your mind and focus on the present.",
       "Shaking can happen when anxiety takes over, but it will pass. Try focusing on your breath—slowly inhale, hold for a few seconds, and then exhale to help relax your body",
       "Excessive worry often happens when anxiety is high. what is the main worry you are facing, and can we explore ways to address it step by step",
-      "It completely understandable to feel fearful during moments of anxiety. focus on what on your control right now, starting with a deep breath to help calm your mind and body"
+      "It completely understandable to feel fearful during moments of anxiety. Focus on what on your control right now, starting with a deep breath to help calm your mind and body"
     ]
   },
 
@@ -41,7 +41,7 @@
       "persistent sadness", "low mood", "loss interest", "fatigue","low energy","feel worthless",
       "feel guilt","tearfulness", "frequent cry","concentration difficulty","difficulty make decisions",
       "appetite change", "weight gain", "weight loss", "sleep disturbances","insomnia","oversleeping","psychomotor agitation",
-      "hopeless","recurrent think death", "social withdrawal", "low self-esteem","bad hygiene","self harm"
+      "hopeless","recurrent think death", "social withdrawal", "low self-esteem","bad hygiene","self harm","depression","depressed"
     ],
     "responses": [
       "I am really sorry you are feeling this way. Persistent sadness can be really hard to cope with. It is important to know that you are not alone, and talking about it can sometimes help. Would you like to share more about what has been on your mind?",

@@ -47,7 +47,7 @@ def predict_class(sentence, current_layer='Question1'):
         'Question1': ['good', 'bad', 'greetings'],
         'Question2a': ['Short-term', 'Long-term'],
         'Question2b': ['new', 'manageable', 'imediat_danger'],
-        'Question3': ['mental_health','other_help'],
+        'Question3': ['mental_health'],
         'Question4': ['yes', 'no'],
         'Question5': ['anxiety', 'depression']
     }
@@ -174,12 +174,10 @@ while True:
         if detected_intent == 'mental_health':
             current_layer = 'Question4'  
             print(f"Debug - Current layer: {current_layer}") 
-        elif detected_intent == 'other_help':
-            print(f"Debug - Current layer: {current_layer}") 
-            break
         else:
             current_layer = 'Question3' 
             print(f"Debug - Current layer: {current_layer}") 
+            print("Contact your local crisis team/service as they are great at tackerling the larger problems")
 
     elif current_layer == 'Question4' and ints:
         # Get the detected intent
@@ -188,10 +186,11 @@ while True:
         
         # Route to different questions based on intent
         if detected_intent == 'yes':
-            current_layer = 'Question4'  
+            current_layer = 'Question5'  
             print(f"Debug - Current layer: {current_layer}") 
-        elif detected_intent == 'depression':
+        elif detected_intent == 'no':
             print(f"Debug - Current layer: {current_layer}")  
+            break
         else:
             current_layer = 'Question4' 
             print(f"Debug - Current layer: {current_layer}")  
