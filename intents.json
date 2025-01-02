@@ -25,14 +25,13 @@
  {
     "tag": "bad",
     "patterns": [
-      "terrible", "worse", "mess", "worthless", "disappointment", "hopeless", "failure", "scar", "helpless", "fear", "lonliness", "isolation",
-      "weak", "useless", "miserable", "ruin", "mistake", "fall apart", "blame", "wrong", "alone","bad"
+      "terrible", "worse", "mess", "worthless", "disappointment", "hopeless", "failure", "scar", "helpless", "fear", "loneliness", "isolation",
+      "weak", "useless", "miserable", "ruin", "mistake", "fall apart", "blame", "wrong", "alone","bad","not great"
     ],
     "responses": [
-      "Do you want to talk more about it", "I am really sorry you feel that way. Can you tell me more about what happened? I would love to help make it better.",
-      "That does not sound great! Let me know how I can assist or if you would like to talk about it", "It sounds like things have taken a turn for the worse. If there is anything I can do to help",
-      "That does not sound ideal. If you would like, I can offer some solutions or simply listen.", "it might seem like things are not working out, but I am here to help. How can we move forward from here",
-      "sorry to hear you are feeling disappointedthis way. Let try to figure out what went wrong and see if we can improve it"
+      "Can you talk more about it?", "I am really sorry you feel that way. Can you tell me more about what has happened? I would love to help make it better.",
+      "That does not sound great! Could you elaberate more on the issue?", "It sounds like things have taken a turn for the worse. Can you say how long you have been experiancing the issue",
+      "That does not sound ideal. Do you know how long you have been feeling like this"
     ]
   },
 
@@ -112,9 +111,9 @@
   {
     "tag": "greetings",
     "patterns": [
-      "hello", "hey","hi","good day","Greetings","what is up","how is it going", "Good morning",
-      "Good afternoon", "Good evening", "What is up", "How are you?", "How is it going?", "How do you do", 
-      "I am back", "Need help", "Got time?", "need support" 
+      "hello", "hey","hi","good day","greetings","what is up","how is it going", "good morning",
+      "good afternoon", "good evening", "what is up", "how are you?", "how is it going?", "how do you do", 
+      "i am back", "need help", "got time", "need support" 
     ],
     "responses": [
       "Hello! How can I help you today?", "Hi there. What is on your mind?"
@@ -122,11 +121,24 @@
   },
 
   {
+    "tag": "Long-term",
+    "patterns": [
+      "persistent ", "long term ", "depression", "anxiety", "hopelessness", "insomnia", "chronic pain", 
+      "ongoing", "burnout", "prolonged" ,"grief", "isolation", "loss of purpose", "constant", "some time"
+    ],
+    "responses": [
+      "It seems like you have been struggerling for some time now. What step have you taken to address this issue so far?.",
+      "I seems to have been a tough situation for you. Have you contacted anyone about it?",
+      "It looks like this has been on your mind for a while. Have you taken any actions previously to address it?"
+    ]
+  },
+
+  {
     "tag": "Short-term",
     "patterns": [
-      "Stress", "overwhelm","Burnout","Nervous","Worry","Unmotivated","Sleepless", "Panic", 
-      "Restless", "Irritable", "Procrastination", "overeat", "binge", "starve", "appetite loss", "Confusion", "fatigue", 
-      "distract", "Headache", "Unease", "Frustration", "Breathlessness", "Forgetful", "withdrawal", "short term"
+      "stress", "overwhelm","burnout","nervous","worry","unmotivated","sleepless", "panic", 
+      "restless", "irritable", "procrastination", "overeat", "binge", "starve", "appetite loss", "confusion", "fatigue", 
+      "distract", "headache", "unease", "frustration", "breathlessness", "forgetful", "withdrawal", "short term"
     ],
     "responses": [
       "sorry youre feeling this way right now", 
@@ -156,9 +168,9 @@
       "definitely", "of course", "yes indeed", "right", "okay", "i agree", "without a doubt", "aye", "naturally", "affirmative", "totally", "exactly"
     ],
     "responses": [
-      "great! lets work on this together. can you tell me more about how you are feeling right now", 
-      "okay! would you like to try a breathing exercise or hear some tips for managing stress?", 
-      "thank you for opening up. it is a brave step to seek help."
+      "Great! Can you tell me more about how you are feeling right now?", 
+      "okay! Would you like go more indepth into the issue?", 
+      "Thank you for opening up. it is a brave step to seek help. Could you explain the issue indepth?"
     ]
   },
   
@@ -167,31 +179,25 @@
     "patterns": [
       "no", " no way", "absolutely not", "definately not", "not at all", "not really", "nope", "never", 
       "i do not think so", "nah", "negative", "i ca not", "i am afraid not", "not posible", " no chance", "not in a million years", 
-      "that is a no", "i disagree", "not likely", "i wo not"
+      "that is a no", "i disagree", "not likely", "not"
     ],
     "responses": [
-      "contact your local crisis team at antelope house", "contact community mental health team at cannon house", 
-      "online support available with any mind matter", "solent mind, provides services including peer support groups and telephone support lines"
+      "Contact your local crisis team/service again as maintaining constant contact is ideal for tackerling the larger problems", 
+      "Even though it might not have seemed useful at the time talking to someone constantly about it can help alot so make sure you get incontact again"
     ]
   },
   
   {
-    "tag": "mental health",
+    "tag": "mental_health",
     "patterns": [
-      "do you have resources for dealing with depression or anxiety?",
-      "where is my nearest social services", "where can I find mental health support?",
-      "what mental health services are available?", "i need help with anxiety or depression",
-      "what is the process for mental health treatment?",
-      "can you recommend a therapist near me", "how do i contact a mental health professional?", 
-      "how do I get mental health treatment?", "where can i find support for anxiety?", "i need help with my mental health", 
-      "are there any psychologists available online?", "what is the number for a mental health hotline?"
+      "mental health", "services", "therapy", "consult", "therapist", "psychologist", "psychiatrist", 
+      "hotline", "emergency helpline", "crisis support", "support group", "reaching out for help", "professional"
     ],
     "responses": [
-      "you are not alone in this", "your feelings are valid", "i am sorry you are feeling this way", 
-      "i am proud of you for talking about it", "you do not have to go through this by yourself",
-      "i understand. Let me share some options for support, like speaking to a professional or exploring coping strategies. What feels right for you?",
-      "it is important to take care of your mental health. i can help you find a counselor or therapist. would that work for you?",
-    "if you feel like you are in a crisis, please do not hesitate to call a helpline. i can help you find one in your area. would you like me to do that?"
+      "Getting in contact with your mental heath service is a great first step. Have you been incontact recently?",
+      "Contacting your mental health service can be the hardest step toward overcomming the current problem you are facing. Have you had a chance to reach out to them lately?",
+      "Talking to a mental health service can make a big difference. Have you been in constant contact with them?",
+      "Mental health service are great at understanding your current situation and how to tackle it. Have you been incontact recently?"
     ]
   }
 ]}

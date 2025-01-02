@@ -187,14 +187,31 @@ while True:
         print(f"Debug - Detected intent: {detected_intent}") 
         
         # Route to different questions based on intent
-        if detected_intent == 'anxiety':
+        if detected_intent == 'yes':
             current_layer = 'Question4'  
             print(f"Debug - Current layer: {current_layer}") 
-            break
         elif detected_intent == 'depression':
             print(f"Debug - Current layer: {current_layer}")  
-            break
         else:
             current_layer = 'Question4' 
             print(f"Debug - Current layer: {current_layer}")  
+
+    elif current_layer == 'Question5' and ints:
+        # Get the detected intent
+        detected_intent = ints[0]['intent']
+        print(f"Debug - Detected intent: {detected_intent}") 
+        
+        # Route to different questions based on intent
+        if detected_intent == 'anxiety':
+            current_layer = 'Question5'  
+            print(f"Debug - Current layer: {current_layer}") 
+            break
+        elif detected_intent == 'depression':
+            current_layer = 'Question5'  
+            print(f"Debug - Current layer: {current_layer}")  
+            break
+        else:
+            current_layer = 'Question5' 
+            print(f"Debug - Current layer: {current_layer}")  
             print("Due to limited knowlelodge we could not help you identify the problem but we would recommend to stay in continued contact with your gp")
+            break
