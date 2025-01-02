@@ -8,7 +8,7 @@ Prerequisites
 
 Python: Make sure Python is installed on the device you will be using(https://www.python.org/)
 
-IDE (Not required): An IDE like Visual Studio can allow a more managed and clean view of the problem and provide a terminal allready based in the project location
+IDE (Not required): An IDE like Visual Studio can allow a more managed and clean view of the problem and provide a terminal already based in the project location
 
 
 
@@ -24,4 +24,4 @@ Step 3: Run "python training.py" to train the model
 
 Step 4: Run "python chatbot.py" to load the model and start up the chatbot
 
-Step 5: Use the chatbot as needed by entering anwsers to the different questions and recieving the final outcome of the chatbot
+Step 5: Use the chatbot as needed by entering answers to the different questions and receiving the final outcome of the chatbot

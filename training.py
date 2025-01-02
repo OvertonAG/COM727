@@ -102,7 +102,7 @@ model.compile(loss='categorical_crossentropy',
 
 # Train the model
 hist = model.fit(np.array(train_x), np.array(train_y), 
-                epochs=200, batch_size=5, verbose=1)
+                epochs=100, batch_size=5, verbose=1)
 
 # Save the trained model
 model.save('chatbot_model.keras', hist)
