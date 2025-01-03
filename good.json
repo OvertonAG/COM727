@@ -1,0 +1,51 @@
+{
+  "intents": [
+    {
+      "tag": "good",
+      "patterns": [
+        "I feel good",
+        "Life is good",
+        "Things are going well",
+        "I’m in a good mood",
+        "I’m feeling positive",
+        "Everything is fine",
+        "Today is a good day",
+        "It’s all good",
+        "I’m happy with how things are",
+        "I’m content",
+        "I’m feeling great",
+        "It’s been a good day",
+        "I’m grateful for the good things in life",
+        "I feel calm and good",
+        "Good things are happening",
+        "I like the way things are going",
+        "I’m feeling good about myself",
+        "It’s a good moment",
+        "This feels like a good day",
+        "Everything is going smoothly"
+      ],
+      "responses": [
+        "Alright, that makes sense.",
+        "Got it. That sounds correct.",
+        "Understood. Thanks for sharing.",
+        "Okay, that’s clear.",
+        "Alright, I see how things are going.",
+        "Noted. Sounds like things are on track.",
+        "Got it. Glad to hear that.",
+        "Understood. That seems to be working out.",
+        "Okay, makes sense to me.",
+        "Noted. That’s good to hear.",
+        "Alright, that checks out.",
+        "Got it. Things seem to be going smoothly.",
+        "Okay, I see what you’re saying.",
+        "Understood. Sounds like it’s going as it should.",
+        "Noted. That seems fine.",
+        "Got it. That sounds right.",
+        "Alright, that seems to be the case.",
+        "Understood. Thanks for letting me know.",
+        "Okay, that’s noted.",
+        "Got it. Everything seems in order."
+      ]
+    }
+  ]
+}
