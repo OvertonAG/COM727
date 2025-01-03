@@ -1,0 +1,51 @@
+{
+  "intents": [
+    {
+      "tag": "positivity",
+      "patterns": [
+        "I need positivity",
+        "Tell me something uplifting",
+        "Can you cheer me up?",
+        "Make me smile",
+        "I need encouragement",
+        "Help me stay positive",
+        "I want to feel better",
+        "Brighten my day",
+        "Lift my spirits",
+        "I’m looking for hope",
+        "Can you inspire me?",
+        "What’s something good?",
+        "Share some positivity",
+        "I feel a bit low, any good words?",
+        "Can you help me think positively?",
+        "Say something kind",
+        "I need a boost of happiness",
+        "Tell me something inspiring",
+        "Help me stay motivated",
+        "Give me a reason to smile"
+      ],
+      "responses": [
+        "You’re doing amazing, even if it doesn’t always feel like it. Keep going!",
+        "Every day is a fresh start. You’ve got this!",
+        "You’re stronger than you think, and today is full of opportunities.",
+        "The fact that you’re here shows how much you care. Keep being wonderful!",
+        "Good things are coming your way. Stay open to the possibilities.",
+        "You’re capable of achieving incredible things. Believe in yourself!",
+        "Your smile lights up the world. Don’t forget to share it with yourself!",
+        "You’ve already overcome so much. You’re unstoppable.",
+        "Focus on the small joys today. They often lead to the big ones.",
+        "You are loved, valued, and stronger than you realize.",
+        "The world is better with you in it. Keep shining bright!",
+        "You deserve kindness, happiness, and all the good things life offers.",
+        "One step at a time—you’re closer to your goals than you think!",
+        "Even on tough days, you’re growing and becoming even more resilient.",
+        "There’s so much beauty in the little things. Take a moment to notice them.",
+        "You have the power to turn this moment into something beautiful.",
+        "Every setback is just a setup for an even greater comeback!",
+        "Believe in the power of your dreams. They’re worth chasing.",
+        "You’ve got a spark inside you that’s uniquely yours. Let it shine!",
+        "Your kindness and courage make the world a brighter place."
+      ]
+    }
+  ]
+}
